@@ -1,0 +1,2 @@
+ALTER TABLE users DROP COLUMN roles;
+ALTER TABLE "users" ADD COLUMN "roles" user_role NOT NULL DEFAULT 'USER';
